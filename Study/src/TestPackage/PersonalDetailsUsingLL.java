@@ -26,9 +26,11 @@ public class PersonalDetailsUsingLL {
 		
 		PersonalDetailsUsingLL details1 = new PersonalDetailsUsingLL("TestFNOne","TestLNOne","One@email.com","Mumbai","9080786745");
 		PersonalDetailsUsingLL details2 = new PersonalDetailsUsingLL("TestFNTwo","TestLNTwo","Two@email.com","Mumbai","9080786745");
+		PersonalDetailsUsingLL details3 = new PersonalDetailsUsingLL("TestFNThree","TestLNThree","Three@email.com","Mumbai","9080786745");
 		
 		LL1.add(details1);
 		LL1.add(details2);
+		LL1.add(details3);
 		
 		ListIterator <PersonalDetailsUsingLL> lit = LL1.listIterator();
 		while(lit.hasNext())
